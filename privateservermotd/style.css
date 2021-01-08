@@ -1,0 +1,15 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: blue;
+  color: #FF69B4;
+  text-align: center;
+  margin: auto;
+  font-size: 140%;
+
+}
+.orange {
+  background-color: #FE5000;
+}
+.based {
+  background-color: greenyellow;
+}
