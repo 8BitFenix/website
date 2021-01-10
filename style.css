@@ -2,20 +2,20 @@ body {
   font-family: Verdana, Arial, Tahoma, sans-serif;
   background-color: #1F1F1F;
   color: white;
-  font-size: 150%;
+  font-size: 125%;
   list-style-position: inside;
   text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
+  margin:0 auto;
+
 }
 
-ul{
+ul {
     max-width: 350px;
     margin: 0 auto;
     text-align:left;
 }
 
-ol{
+ol {
     max-width: 350px;
     margin: 0 auto;
     text-align:left;
@@ -29,4 +29,30 @@ h2 {
 h3 {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.navigation {
+  background-color: black;
+  font-size: 175%;
+  margin: inherit;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation > div {
+  width: 10%
+}
+.text {
+  max-width: 50%;
+  margin: inherit;
+}
+
+a:link {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
 }
