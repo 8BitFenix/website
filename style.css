@@ -5,17 +5,11 @@ body {
   font-size: 125%;
   list-style-position: inside;
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
 
 }
 
-ul {
-    max-width: 350px;
-    margin: 0 auto;
-    text-align:left;
-}
-
-ol {
+ul, ol {
     max-width: 350px;
     margin: 0 auto;
     text-align:left;
@@ -33,20 +27,21 @@ h3 {
 
 .navigation {
   background-color: black;
-  font-size: 175%;
+  font-size: 150%;
   margin: inherit;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
 }
 
 .navigation > div {
-  width: 10%
+  width: 180px;
 }
+
 .text {
-  max-width: 50%;
   margin: inherit;
+  max-width: 600px;
 }
 
 a:link {
